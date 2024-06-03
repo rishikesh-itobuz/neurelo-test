@@ -7,8 +7,8 @@ services:
     volumes:
       - ./tmp/db:/var/lib/postgresql/data
     environment:
-      - POSTGRES_PASSWORD=S3cret
-      - POSTGRES_USER=rishikesh
-      - POSTGRES_DB=neurelo_db
+      - POSTGRES_PASSWORD=PASSWORD_DUMY
+      - POSTGRES_USER=USER_DUMY
+      - POSTGRES_DB=DB_DUMMY
     ports:
       - 5433:5432
